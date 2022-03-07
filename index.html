@@ -16,12 +16,49 @@
     <div class="sol">
         <div class='sol-swiper'>
             <div class='swiper-wrapper'>
-                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
-                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
-                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
-                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
+                <div class='swiper-slide'>
+                    <img src="img/pic1.jpg" alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="https://cdn.sanity.io/images/xlyfbcp3/production/516f5f4d33a5274f877d95c38890ece65f80158e-2250x3000.jpg?auto=format&w=1536&h=2048&fm=jpg"
+                        alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="img/pic1.jpg" alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="https://cdn.sanity.io/images/xlyfbcp3/production/516f5f4d33a5274f877d95c38890ece65f80158e-2250x3000.jpg?auto=format&w=1536&h=2048&fm=jpg"
+                        alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="img/pic1.jpg" alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="https://cdn.sanity.io/images/xlyfbcp3/production/516f5f4d33a5274f877d95c38890ece65f80158e-2250x3000.jpg?auto=format&w=1536&h=2048&fm=jpg"
+                        alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="img/pic1.jpg" alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="https://cdn.sanity.io/images/xlyfbcp3/production/516f5f4d33a5274f877d95c38890ece65f80158e-2250x3000.jpg?auto=format&w=1536&h=2048&fm=jpg"
+                        alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="img/pic1.jpg" alt="Фото">
+                </div>
+                <div class='swiper-slide'>
+                    <img src="https://cdn.sanity.io/images/xlyfbcp3/production/516f5f4d33a5274f877d95c38890ece65f80158e-2250x3000.jpg?auto=format&w=1536&h=2048&fm=jpg"
+                        alt="Фото">
+                </div>
             </div>
         </div>
+        <button class="sol-btn-prev">
+
+        </button>
+        <button class="sol-btn-next">
+
+        </button>
         <div class="sol-text">
             <h1 class="sol-text-title">
                 Авторский дизайн квартир и домов
@@ -34,10 +71,14 @@
     </div>
     <script>
         var swiper = new Swiper(".sol-swiper", {
-            slidesPerView: 1,
-            spaceBetween: 0,
+            slidesPerView: "auto",
             centeredSlides: true,
+            spaceBetween: 0,
             loop: true,
+            navigation: {
+                nextEl: '.sol-btn-next',
+                prevEl: '.sol-btn-prev',
+            },
         });
     </script>
 </body>
