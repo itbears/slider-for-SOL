@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOL – slider</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <div class="sol">
+        <div class='sol-swiper'>
+            <div class='swiper-wrapper'>
+                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
+                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
+                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
+                <div class='swiper-slide'><img src="img/pic1.jpg" alt="Фото"></div>
+            </div>
+        </div>
+        <div class="sol-text">
+            <h1 class="sol-text-title">
+                Авторский дизайн квартир и домов
+            </h1>
+            <p class="sol-text-p">
+                <span>SOL DESIGN</span><br>
+                студия дизайна интерьера <br> Светланы Оленбург
+            </p>
+        </div>
+    </div>
+    <script>
+        var swiper = new Swiper(".sol-swiper", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            centeredSlides: true,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>

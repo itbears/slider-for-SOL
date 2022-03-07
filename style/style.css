@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.sol {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  font-family: "Manrope", sans-serif;
+}
+
+.sol-text {
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  max-width: calc(100vw - 45vw);
+  width: 100%;
+  left: calc(50% - (100vw - 45vw) / 2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sol-text-title {
+  font-size: 42px;
+  line-height: 85%;
+  color: #3a3a3a;
+  max-width: 402px;
+}
+
+.sol-text-p {
+  border-left: 1px solid #403c39;
+  padding-left: 15px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: #939393;
+}
+
+.sol-text-p span {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 110%;
+  color: #403c39;
+}
+
+.sol-swiper {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.sol .swiper-slide {
+  margin-top: 25px;
+  height: calc(100vh - 50px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.4s ease !important;
+  -o-transition: all 0.4s ease !important;
+  transition: all 0.4s ease !important;
+}
+
+.sol .swiper-slide img {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  height: 100%;
+  width: 100%;
+}
+
+.sol .swiper-slide-active img {
+  width: 60vw;
+  height: 35vw;
+}
+/*# sourceMappingURL=style.css.map */
